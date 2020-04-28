@@ -40,7 +40,7 @@ namespace TesteGit
                     picPessoa.Load("./Resources/rafa.jpg");
                     break;
                 case "manu":
-                    picPessoa.Image = Image.FromFile(@"M:\Users\pcgrande\Documents\Visual Studio 2015\Projects\TesteGit\TesteGit\Resources\manu.jpg");
+                    picPessoa.Image = Image.FromFile(@"M:\\Users\\pcgrande\\Documents\\Visual Studio 2015\\Projects\\TesteGit\\TesteGit\\Resources\\manu.jpg");
                     break;
                 default:
                     break;

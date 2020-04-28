@@ -73,7 +73,7 @@
             this.MinimizeBox = false;
             this.Name = "FrmVoto";
             this.Text = "Seu voto!";
-            this.Shown += new System.EventHandler(this.FrmVoto_Load);
+            this.Load += new System.EventHandler(this.FrmVoto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picPessoa)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

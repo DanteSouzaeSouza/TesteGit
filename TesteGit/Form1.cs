@@ -16,15 +16,22 @@ namespace TesteGit
         {
             InitializeComponent();
         }
+
+        // variáveis colocadas aqui são passáveis para outros forms.
         string voto = "";
 
         private void btnVotar_Click(object sender, EventArgs e)
         {
+
+            // usando Switch para controlar opções
             switch (voto)
             {
                 case "t":
+                    // instanciando o form com o voto no parâmetro
                     FrmVoto meuVoto = new FrmVoto("Telma");
+                    // chamando o formulário com a foto do eleito
                     meuVoto.Show();
+                    // resetando estados dos componentes
                     cbxTelma.Checked = false;                             
                     voto = "";
                     break;
@@ -46,6 +53,8 @@ namespace TesteGit
             }
 
         }
+
+        // controlando estados dos checkBoxes
 
         private void cbxTelma_CheckedChanged(object sender, EventArgs e)
         {
